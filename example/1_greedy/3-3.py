@@ -1,3 +1,4 @@
+#숫자카드 게임
 n,m = map(int,input().split())
 result=0
 min_value=0
