@@ -1,0 +1,9 @@
+#1047번 잃어버린 괄호
+data = input().split('-')
+result=0
+for i in data[0].split('+'):
+    result+=int(i)
+for i in data[1:]:
+    for j in i.split('+'):
+        result-=int(j)
+print(result)
