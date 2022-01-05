@@ -14,7 +14,7 @@ while(1):
             arr[x+directs[direct][0]][y+directs[direct][1]]=2
             count+=1
             x+=directs[direct][0]
-            y+=directs[direct][1]
+            y+=directs[direct][1]   
             result=1
             break
         direct=(direct+3)%4
